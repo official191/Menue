@@ -12,7 +12,7 @@ const MyCarousal = () => {
   return (
     < div id="home">
       
-         <Carousel controls={false} indicators interval={2500} pauseOnHover={false}>
+         <Carousel opacity= {0.6} controls={false} indicators interval={2500} pauseOnHover={false}>
   <Carousel.Item>
     <img
       className="d-block w-100 custom-img"

@@ -34,21 +34,13 @@ const TitleMessage= () => {
       <div className="titleMessage">
         <div className="heading">
           <div className="main text-center mb-3">
-            Hi, I am
+            Hi, Welcome to
             <br />
             <span>
-              <strong>Vibhor Singh</strong>
+              <strong>SUNITI's</strong>
             </span>
           </div>
-          <div className="sub">
-            <Typewriter
-              options={{
-                strings: ["Web Developer", "Mobile Application Developer", "Learner"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </div>
+          
         </div>
       </div>
     </MyTitleMessage>
